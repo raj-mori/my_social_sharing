@@ -1,0 +1,16 @@
+#background {
+	display: none;
+}
+
+.bookmark span.stripe {
+	background: url('/_images/ie8-bg.png');
+}
+
+@font-face {
+	font-family:'FontAwesome';
+ 	src:url('../fonts/fontawesome-webfont.eot?#iefix')  format('embedded-opentype'); }
+
+.user-menu ul {
+	position: relative;
+	top: -2px;
+}

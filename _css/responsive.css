@@ -1,0 +1,521 @@
+/* --------------------------------------------------------------
+				Responsive (Mobile) Design
+-------------------------------------------------------------- */
+@media only screen and (max-width: 1120px) {
+	.panel-info, .result-text, .result-wrap p.tags {
+		width: 76%; }
+}
+
+/* Bookmark inputs/preview */
+
+@media only screen and (max-width: 990px) {
+	.bookmark-input {
+		width: 450px;
+	}
+
+	.bookmark-preview {
+		width: calc(100% - 455px);
+	}
+
+	.panel-info, .result-text, .result-wrap p.tags {
+		width: 68%; }
+}
+
+
+@media only screen and (max-width: 760px) {
+	.bookmark-preview, .bookmark-input {
+		margin: 0 auto;
+		float: none;
+		width: auto;
+		max-width: 460px;
+	}
+
+	.bookmark-input table {
+		margin-bottom: 10px;
+	}
+
+	.panel-info, .result-text, .result-wrap p.tags {
+		width: 65%; }
+}
+
+@media screen and (max-width: 650px) {
+
+	.page-title {
+		font-size: 30px;
+		padding-top: 12px;
+	}
+
+	#board input[type="text"] {
+		margin-top: 7px;
+	}
+
+	#about .sidebar {
+		display: none;
+	}
+
+	.about-text, .privacy-left {
+		width: 96%;
+	}
+
+	h1.number-title  {
+		width: 96%;
+		height: auto;
+		border-right: none;
+		border-bottom: 1px solid #E7E7E7;
+		line-height: 110px;
+		height: 120px;
+	}
+	
+	h1.number-title span {
+		top: 0;
+		height: auto;
+	}
+
+	.info-text {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 120px;
+	}
+
+	#contact-buttons {
+	width: 70% !important;
+	}
+
+	#board input[type="text"] {
+		width: 100%;
+	}
+
+	#change-bg #change-bg-submit, #change-strip-bg #change-bg-submit {
+		width: 70%;
+	}
+
+	.post-comment-wrap {
+		width: 80%;
+	}
+
+	.panel-info, .result-text, .result-wrap p.tags {
+		width: 60%; }
+
+}
+
+/* Fix for browsers without calc support */
+
+@media only screen and (max-width : 630px) {
+	.feed-content {
+		width: 63%;
+	}
+}
+
+/* Sidebar below */ 
+
+@media only screen and (max-width : 599px) {
+	
+	.sidebar {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	#board .sidebar {
+		margin-top: 7px;
+	}
+
+	#explore .sidebar {
+		margin-top: 6px !important;
+		top: 0;
+	}
+
+	p.tags, .result-wrap p.tags, #explore .hide, .panel-info, .result-text {
+		width: 100% !important;
+	}
+
+	.panel-info {
+		padding-right: 0;
+	}
+
+	.feed-content{
+		width: 100%;
+		float: none;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	
+	.board-info, p.feed-by, .followers, .search-title, p.tags, .index-wrap, .change-bg-content h2,
+	.discuss, #explore .board-title, .social-buttons, p.results, p.search-term {
+		text-align: center;
+	}
+
+	.search-title, p.tags, p.results, p.search-term {
+		float: none !important;
+	}
+	
+	p.tags {
+		display: inherit;
+		float: none !important;
+		width: auto !important;
+	}
+
+	.feed-name {
+		margin-left: 60px;
+	}
+
+	.board-left, .panel-info {
+		margin-top: 0px;
+	}
+
+	.sidebar.related {
+		position: relative;
+		top: -15px;
+	}
+
+	.social-buttons {
+		bottom: -22px;
+	}
+
+	.feed-img{
+		float:none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.rev {
+		text-align: center;
+		width: 98%;
+	}
+
+	.index ul {
+		text-align: left;
+	}
+
+	.board-title .hide, .remove-panel {
+		width: 100%;
+		text-align: center;
+		position: relative;
+		top: 0;
+		left: 0;
+		display: inline-block;
+	}
+	
+	.post-buttons, #board-discussion .created-date, #board-discussion .created {
+		float: none;
+		text-align: center;
+	}
+
+	.bg-search {
+		text-align: center;
+		margin: 8px 0;
+		float: none;
+		width: 270px;
+		margin: 6px auto;
+	}
+
+	.bookmark-input-center {
+		width: 80%;
+	}
+
+	#main-search {
+		padding-right: 10px;
+	}
+
+}
+
+
+@media only screen and (max-width: 550px) {
+	.bookmark-input {
+		padding: 0 15px;
+	}
+
+	table.add-text th {
+		display: none;
+	}
+	
+	table.add-text tr {
+		text-align: center;
+	}
+
+	table.add-text td {
+		display: inline-block;
+	}
+
+	table.add-text .button.more-text {
+		width: 90% !important;
+	}
+
+	table.add-text tr:last-child td {
+		width: 100%;
+		text-align: center;
+	}
+
+	.revised {
+		position: inherit;
+		display: block;
+		bottom: auto;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	.results, .title-description p, .social-buttons, .page-title {
+		text-align: center;
+	}
+
+	.social-buttons {
+		right: auto;
+		width: 100%;
+		bottom: -41px !important;
+	}
+
+	#board .title-description, #explore .title-description, #user-page .title-description, #board-discussion .title-description {
+		margin-bottom: 25px;
+	}
+
+	.board-edit .title-description {
+		margin-bottom: 4px !important;
+	}
+
+	.hide {
+		margin-right: 3px;
+	}
+
+	.time {
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.feed-name {
+		margin-left: 0 !important;
+	}
+
+	.home-search-buttons .main-button:first-child {
+	margin-bottom: 10px;
+	}
+
+	#contact-buttons {
+	width: 80%;
+	}
+
+	#explore-search {
+		width: calc(100% - 120px);
+	}
+
+	.board-title {
+		padding-left: 0;
+	}
+	
+	#explore-search-submit {
+		padding: 6px 15px !important;
+	}
+	
+	.header-text, #footer .extra {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width : 450px) {
+
+	.choose-image input[type="text"] {
+		width: 100% !important;
+	}
+
+	.choose-image {
+		text-align: center;
+	}
+
+	.choose-image input.button {
+		text-align: center;
+		display: inline-block;
+		position: static;
+		margin: 4px;
+	}
+
+	.created-by, .created-date, .created, .sort-by, .load-more {
+		margin: 0;
+		float: none;
+		display: block;
+		text-align: center;
+	}
+
+	#explore-search {
+		width: 100%;
+		max-width: none;
+	}
+
+	#explore-search-submit {
+		display: inline-block;
+		float: none !important;
+		margin: 4px !important;
+	}
+
+	#explore-search-form {
+		text-align: center;
+	}
+
+	/* Hovers */
+
+	.hover-bookmark {
+		float: none;
+	}
+
+	.hover-content {
+		text-align: center;
+	}
+
+	.hover .bookmark {
+		display: inline-block;
+	}
+
+	.hover ul {
+		text-align: center;
+		float: none;
+		margin: 0;
+		display: inline-block;
+	}
+
+	.hover {
+		max-width: 330px;
+	}
+}
+
+/* Modals */
+
+@media only screen and (max-width: 380px) {
+	.modal {
+		width: auto;
+		min-width: 290px;
+		max-width: 360px;
+		display: inline-block;
+	}
+
+	.bg-search {
+		width: 240px;
+	}
+
+	.bg-search input[type="text"] {
+		width: 200px;
+	}
+}
+
+
+@media only screen and (max-width: 320px) {
+	.usr-title{
+		display: none;
+	}
+
+	.page-title {
+		font-size: 28px !important;
+	}
+
+	#explore-search {
+		width: 100%;
+	}
+	
+	#explore-search-form {
+		text-align: center;
+	}
+
+	#explore-search-submit {
+		margin: 6px 0 0;
+		float: none !important;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	.image-wrap, .background-wrap {
+		width: 33%;
+	}
+}
+
+/* Board page columns */
+
+/* 1 column */
+
+@media only screen and (max-width : 480px) {
+	.image-wrap, .background-wrap {
+		width: 100%;
+	}
+}
+
+/* 2 columns */
+
+@media only screen and (min-width : 480px) and (max-width : 710px) {
+	.image-wrap, .background-wrap {
+		width: 50%;
+	}
+}
+
+/* 3 columns */
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation : portrait) {
+	.image-wrap, .background-wrap {
+		width: 33%;
+	}
+}
+
+@media only screen and (min-width : 710px) and (max-width : 930px) {
+	.image-wrap, .background-wrap {
+		width: 33%;
+	}
+}
+
+/* 4 columns */
+
+@media only screen and (min-width : 930px) and (max-width : 1190px) {
+	.image-wrap, .background-wrap {
+		width: 25%;
+	}
+}
+
+/* Background change columns */
+
+@media only screen and (max-width : 1179px) {
+	.background-wrap {
+		margin: 0 auto 10px;
+	}
+}
+
+
+@media only screen and (min-width: 600px) {
+	
+
+	.title-description, .panel-info { 
+		display: inline; 
+		float: left; }
+	
+}
+
+/* Explore page categories list */
+
+@media only screen and (max-width : 1197px) {
+
+	.categories-list ul {
+		width: 760px;
+		position: relative;
+		left: 10px;
+	}
+}
+
+@media only screen and (max-width : 880px) {
+	
+	.categories-list ul {
+		width: 570px;
+	}
+}
+
+@media only screen and (max-width : 670px) {
+	
+	.categories-list ul {
+		width: 380px;
+	}
+}
+
+@media only screen and (max-width : 475px) {
+	
+	.categories-list ul {
+		width: 190px;
+	}
+}
